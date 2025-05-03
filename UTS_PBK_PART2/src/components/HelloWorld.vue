@@ -2,7 +2,7 @@
 import { ref, onMounted } from 'vue';
 
 const days = ['Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu', 'Minggu'];
-const selectedDay = ref('Senin');
+const selectedDay = ref('Minggu');
 const filter = ref('all');
 const expenses = ref({});
 const newExpense = ref({
