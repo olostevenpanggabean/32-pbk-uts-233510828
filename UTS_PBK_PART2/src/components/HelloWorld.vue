@@ -15,6 +15,7 @@ days.forEach(day => {
   expenses.value[day] = [];
 });
 
+//fungsi menambah jenis pengeluaran dan jumlah pengeluaran 
 function addExpense() {
   if (!newExpense.value.text || newExpense.value.amount <= 0) return;
   
